@@ -1,0 +1,198 @@
+		a {
+			color: #139EFF;
+			text-decoration: none;
+		}
+		
+		a.cabecera{
+ 			color: #eee;
+ 		}
+ 
+ 		 a.cabeceraPerfil{
+		 	color: #009999;
+		 }
+		
+		body {
+			background: #eee;
+			text-align: left;
+			font-family: Arial, Helvetica, sans-serif;
+			color: #666;
+		}
+		
+		button {
+			background: lightgrey;
+			color: #fff;
+			padding: 2px;
+			margin: 5px;
+			display: inline;
+		}
+		
+		div.error, div.excepcion {
+			color: red;	
+			border: 2px solid red;
+			padding: 10px;
+			margin: 10px;
+		}
+		
+		footer{
+ 			background-color: lightblue;
+ 			padding: 10px;
+ 			position: relative;	
+ 			margin-top: 20px;
+ 			border-radius: 15px;
+ 		}
+		
+		form, input {			
+			padding: 3px;
+			border: 1px;
+			margin: 10px;
+			height: 20px;
+			font-size: 11pt;
+		}
+		
+		h1 {			
+			font-size: 3em; 
+			color: #139EFF;
+		}
+		
+		h2 {			
+			font-size: 2em; 
+			color: #666666;
+			padding-left:15px;
+		}
+		
+		h3 {			
+			font-size: 1,5em; 
+			color: #666666;
+		}
+		
+		
+		header{
+ 			background-color: lightblue;
+ 			padding: 10px;
+ 			border-radius: 15px;
+ 		}
+		
+		img{
+			max-width: 100%;
+			border-radius: 10px;
+		}
+		
+		img.cabecera{
+ 			margin-top: 10px;
+ 		}
+		
+		img.pie{
+		 	margin-top: 10px;
+		 }
+		
+		input.inmueble{
+			width:90%;
+			height:auto;
+		}
+		
+		legend h2{
+			padding:0px;
+		}
+		
+		table, th, td {
+  			border: 1px solid ;
+  			width:20%;
+  			text-align: center;
+ 			border-color: #009999;
+ 			border-radius: 5px;
+ 			box-sizing: content-box;
+ 		}
+ 		
+ 		table{
+			margin:10px;
+			border-color: #009999;
+		}
+ 		
+		table.comerciales{
+  			border: 1px solid ;
+  			width:30%;
+  			text-align: center;
+ 			border-color: #009999;
+ 			border-radius: 5px;
+ 			box-sizing: content-box;
+ 			margin: 20px
+ 		}
+		
+		table.hilo{
+			border: 1px solid;
+  			width:98%;
+  			text-align: center;
+  			border-color: #009999;
+  			margin: 20px;
+  			margin-bottom: 5px;
+		}
+		
+		table.inmueble {
+  			border: 1px solid;
+  			display: inline-block;
+  			margin:15px;
+  			border-color: #009999;
+  			
+		}		
+
+		td.cabecera{
+		 	background-color: #009999;
+ 		}
+		
+		 @media only screen and (min-width: 600px){
+		 	.col-tab-1{width:10%;}
+			.col-tab-2{width:20%;}
+			.col-tab-3{width:30%;}
+			.col-tab-4{width:40%;}
+			.col-tab-5{width:50%;}
+			.col-tab-6{width:60%;}
+			.col-tab-7{width:70%;}
+			.col-tab-8{width:80%;}
+			.col-tab-9{width:90%;}
+			.col-tab-10{width:100%;}
+		 }
+		 
+		 @media only screen and (min-width: 768px){
+		 	.col-1{width:10%;}
+			.col-2{width:20%;}
+			.col-3{width:30%;}
+			.col-4{width:40%;}
+			.col-5{width:50%;}
+			.col-6{width:60%;}
+			.col-7{width:70%;}
+			.col-8{width:80%;}
+			.col-9{width:90%;}
+			.col-10{width:100%;}
+		 }
+
+		[class*="col-"]{
+			float:left;
+			padding:15px;
+		}
+		
+		.columnas::after{
+			content:"";
+			clear:both;
+			display:block;
+		}
+		
+		*{
+			box-sizing:border-box;
+		}
+		
+		.strongpass {
+			background-color: green;
+		}
+		
+		.middlepass {
+			background-color: yellow;
+		}
+		
+		.weakpass {
+			background-color: red;
+		}
+		
+		.nanpass {
+			background-color: yellow;
+		}
+		
